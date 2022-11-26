@@ -66,15 +66,9 @@ public class ProgrammEventi {
 	
 	
 	// sort events method 
-	
-	private void sortEvents() {
-		
-		events.sort((ev1, ev2) -> ev1.getDate().compareTo(ev2.getDate()));
-	}
+
 	
 	public String getEventsList() {
-		
-		sortEvents();
 		
 		String list = 
 				"Titolo: " + getTitle() 
