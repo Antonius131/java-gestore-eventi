@@ -89,7 +89,7 @@ public class Evento {
 	
 	public String formatDate() {
 		
-		return date.getDayOfMonth() + "/" + date.getMonthValue() + "/" + date.getYear();
+		return date.toString();
 	}
 	
 	
